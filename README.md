@@ -11,6 +11,31 @@ This demo repository shows how developers can upload files using the Shelby CLI.
 
 ---
 
+## Tech Stack
+
+- Shelby CLI
+- Node.js
+- Bash (Shell Script)
+- Aptos Network
+
+---
+
+## Features
+
+- Upload files to Shelby decentralized storage
+- CLI-based file upload example
+- Automation using shell scripts
+- Example assets for testing uploads
+- Documentation with demo screenshot
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
 ## Project Structure
 shelby-storage-demo
 │
@@ -23,8 +48,8 @@ shelby-storage-demo
 ├── docs/
 │ └── shelbystorage.png
 │
-└── scripts/
-└── upload.sh
+└── scripts└
+            ── upload.sh
 
 ---
 
@@ -34,7 +59,7 @@ Before running this demo, make sure you have:
 
 - Node.js >= 18
 - Shelby CLI
-- Aptos wallet
+- Petra Aptos wallet
 
 ---
 
