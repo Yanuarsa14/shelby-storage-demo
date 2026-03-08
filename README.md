@@ -19,7 +19,7 @@ This project demonstrates how to:
 - Bash
 
 ## Project Structure
-
+```
 shelby-storage-demo
 ├── assets
 │   └── datacenter.jpg
@@ -27,7 +27,7 @@ shelby-storage-demo
 ├── scripts
 │   └── upload.sh
 └── README.md
-
+```
 
 ## Setup
 
@@ -42,8 +42,9 @@ cd shelby-storage-demo
 ### Initialize Shelby
 
 Run:
-
+```
 shelby init
+```
 
 ### Request Testnet Tokens
 
@@ -70,7 +71,8 @@ shelby upload test.txt text.txt -e "1 hour"
 ```
 ## Author
 
-Yanuarsa
+```
+Yanuarsa14
 Web3 Developer
-
+```
 
