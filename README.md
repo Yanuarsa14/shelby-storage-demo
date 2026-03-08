@@ -28,6 +28,21 @@ shelby-storage-demo
 │   └── upload.sh
 └── README.md
 ```
+## Requirements
+
+- Node.js >= 18
+- Shelby CLI
+- Aptos Testnet wallet
+
+## Installation
+
+Install Shelby CLI:
+
+npm install -g @shelby/cli
+
+Verify installation:
+
+shelby --version
 
 ## Setup
 
@@ -39,9 +54,10 @@ git clone https://github.com/Yanuarsa14/shelby-storage-demo.git
 cd shelby-storage-demo
 ```
 
-### Initialize Shelby
+## Initialize Shelby
 
 Run:
+
 ```
 shelby init
 ```
@@ -56,12 +72,12 @@ ShelbyUSD faucet:
 
 https://docs.shelby.xyz/apis/faucet/shelbyusd
 
-## Upload Exmple 
+## Upload Example 
 
 Create a small test file:
 
 ```
-cho "hello shelby" > test.txt
+echo "hello shelby" > test.txt
 ```
 
 Upload it:
@@ -74,7 +90,14 @@ shelby upload test.txt text.txt -e "1 hour"
 
 example of a succesfull upload to the Shelby storage network
 
-![Upload Demo] (docs/shelbystorage.png)
+![Upload Demo](docs/shelbystorage.png)
+
+## Scripts
+
+Upload file using script:
+
+bash scripts/upload.sh
+
 
 ## Author
 
@@ -82,4 +105,3 @@ example of a succesfull upload to the Shelby storage network
 Yanuarsa14
 Web3 Developer
 ```
-
