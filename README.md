@@ -69,6 +69,13 @@ Upload it:
 ```
 shelby upload test.txt text.txt -e "1 hour"
 ```
+
+## Demo
+
+example of a succesfull upload to the Shelby storage network
+
+![Upload Demo] (docs/shelbystorage.png)
+
 ## Author
 
 ```
