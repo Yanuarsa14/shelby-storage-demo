@@ -41,34 +41,35 @@ Before running this demo, make sure you have:
 ## Installation
 
 Install Shelby CLI:
-
-```bash
+```
 npm install -g @shelby/cli
-
+```
 Check installation:
-
+```
 shelby --version
-
+```
 ## Upload Example
 
 Create a sample file:
-
+```
 echo "hello shelby" > test.txt
-
+```
 ## Run Upload Script
 
 Make the script executable:
-
+```
 chmod +x scripts/upload.sh
-
+```
 Run the script:
-
+```
 ./scripts/upload.sh
-
+```
 ## Demo
 
 ![Shelby Storage Demo](docs/shelbystorage.png)
 
 ##Author
 
-GitHub: https://github.com/Yanuarsa14
+GitHub:
+
+ ```https://github.com/Yanuarsa14
