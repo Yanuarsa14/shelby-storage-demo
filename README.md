@@ -1,107 +1,103 @@
-# Shelby Storage 
+# Shelby Storage Demo
 
-A simple demo project for uploading files to the Shelby decentralized storage network using the Shelby CLI.
+This repository demonstrates how to upload files to **Shelby decentralized storage** using the Shelby CLI.
+
+The project provides a simple example of uploading files and automating uploads with a shell script.
+
+---
 
 ## Overview
 
-This project demonstrates how to:
+Shelby Storage is designed for decentralized data storage in Web3 applications.  
+This demo repository shows how developers can interact with Shelby storage through the CLI.
 
-- initialize a Shelby wallet
-- request testnet tokens
-- upload files to Shelby storage
-- manage blobs using the Shelby CLI
+This repository includes:
 
-## Tech Stack
+- Example files for upload
+- Upload automation script
+- Documentation screenshot
 
-- Shelby CLI
-- Aptos Testnet
-- Node.js
-- Bash
+---
 
 ## Project Structure
-```
+
 shelby-storage-demo
-├── assets
-│   └── datacenter.jpg
-├── docs
-├── scripts
-│   └── upload.sh
-└── README.md
-```
+│
+├── README.md
+│
+├── assets/
+│   ├── a.txt
+│   ├── datacenter.jpg
+│   └── test.txt
+│
+├── docs/
+│   └── shelbystorage.png
+│
+└── scripts/
+    └── upload.sh
+
+---
+
 ## Requirements
+
+Before running this demo, make sure you have:
 
 - Node.js >= 18
 - Shelby CLI
-- Aptos Testnet wallet
+- Aptos wallet (testnet)
+
+---
 
 ## Installation
 
-Install Shelby CLI:
+Install Shelby CLI globally:
 
 npm install -g @shelby/cli
 
-Verify installation:
+---
+
+## Verify installation:
 
 shelby --version
 
-## Setup
+---
 
-Clone this repository:
+## Upload Example
 
-```
+Create a sample file:
 
-git clone https://github.com/Yanuarsa14/shelby-storage-demo.git
-cd shelby-storage-demo
-```
-
-## Initialize Shelby
-
-Run:
-
-```
-shelby init
-```
-
-### Request Testnet Tokens
-
-APT faucet:
-
-https://aptos.dev/network/faucet
-
-ShelbyUSD faucet:
-
-https://docs.shelby.xyz/apis/faucet/shelbyusd
-
-## Upload Example 
-
-Create a small test file:
-
-```
 echo "hello shelby" > test.txt
-```
 
-Upload it:
+Upload the file:
 
-```
-shelby upload test.txt text.txt -e "1 hour"
-```
+shelby upload test.txt
+
+---
+
+## Run Upload Script
+
+Make the script executable:
+
+chmod +x scripts/upload.sh
+
+Run the script:
+
+./scripts/upload.sh
+
+---
 
 ## Demo
 
-example of a succesfull upload to the Shelby storage network
+Example upload result using Shelby CLI.
 
-![Upload Demo](docs/shelbystorage.png)
+![Shelby Storage Demo](docs/shelbystorage.png)
 
-## Scripts
-
-Upload file using script:
-
-bash scripts/upload.sh
-
+---
 
 ## Author
 
-```
-Yanuarsa14
-Web3 Developer
-```
+GitHub: https://github.com/Yanuarsa14
+
+---
+
+# 3
