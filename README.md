@@ -2,39 +2,29 @@
 
 This repository demonstrates how to upload files to **Shelby decentralized storage** using the Shelby CLI.
 
-The project provides a simple example of uploading files and automating uploads with a shell script.
-
 ---
 
 ## Overview
 
 Shelby Storage is designed for decentralized data storage in Web3 applications.  
-This demo repository shows how developers can interact with Shelby storage through the CLI.
-
-This repository includes:
-
-- Example files for upload
-- Upload automation script
-- Documentation screenshot
+This demo repository shows how developers can upload files using the Shelby CLI.
 
 ---
 
 ## Project Structure
-
 shelby-storage-demo
 │
 ├── README.md
-│
 ├── assets/
-│   ├── a.txt
-│   ├── datacenter.jpg
-│   └── test.txt
+│ ├── a.txt
+│ ├── datacenter.jpg
+│ └── test.txt
 │
 ├── docs/
-│   └── shelbystorage.png
+│ └── shelbystorage.png
 │
 └── scripts/
-    └── upload.sh
+└── upload.sh
 
 ---
 
@@ -44,35 +34,26 @@ Before running this demo, make sure you have:
 
 - Node.js >= 18
 - Shelby CLI
-- Aptos wallet (testnet)
+- Aptos wallet
 
 ---
 
 ## Installation
 
-Install Shelby CLI globally:
+Install Shelby CLI:
 
+```bash
 npm install -g @shelby/cli
 
----
-
-## Verify installation:
+Check installation:
 
 shelby --version
-
----
 
 ## Upload Example
 
 Create a sample file:
 
 echo "hello shelby" > test.txt
-
-Upload the file:
-
-shelby upload test.txt
-
----
 
 ## Run Upload Script
 
@@ -84,20 +65,10 @@ Run the script:
 
 ./scripts/upload.sh
 
----
-
 ## Demo
-
-Example upload result using Shelby CLI.
 
 ![Shelby Storage Demo](docs/shelbystorage.png)
 
----
-
-## Author
+##Author
 
 GitHub: https://github.com/Yanuarsa14
-
----
-
-# 3
